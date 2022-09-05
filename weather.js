@@ -16,7 +16,7 @@ const setinnerTextId = (id, text) => {
 const displayTemperature = (data) => {
     console.log(data);
     setinnerTextId('temperature', data.main.temp)
-    setinnerTextId('clouds', data.weather[0].description)
+    setinnerTextId('clouds', data.weather[0].main)
 }
 
 
